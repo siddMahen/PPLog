@@ -245,20 +245,21 @@ Ski break is starting. My school work has finally subsided and I plan to complet
 ECC presents itself as a very interesting and efficient alternative to normal DLP-based ciphers. Check out these stats from 
 the NSA. They state that to maintain a security level equivalent to that of a 3072 bit key in RSA (read strong DLP) you only need 256 bit key in ECDLP! Thats 10x less space cost! Furthermore, this decrease in space cost increases as the security bits are increased!
 
+<pre>
 ---------------------|-----------------------
 Security Level(bits) | Ratio of Cost: DC - EC
 ---------------------|-----------------------
-			80					  				3:1
+		80			  			3:1
 ---------------------|-----------------------
-			112				  				6:1
+		112				  		6:1
 ---------------------|-----------------------
-			128				  				10:1
+		128				  		10:1
 ---------------------|-----------------------
-			192				  				32:1
+		192				  		32:1
 ---------------------|-----------------------
-			256				  				64:1
+		256				  		64:1
 ---------------------|-----------------------
-
+</pre>
 Freaking amazing stuff. Obviously, however, there is a slight calculation over head as computation over the EC can get expensive.
 
 [1]:(http://www.nsa.gov/business/programs/elliptic_curve.shtml)
